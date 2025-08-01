@@ -15,7 +15,8 @@ const networkName = network.name == "hardhat" ? "localhost" : network.name;
 
 const DATA = {
     deploy: {
-        ownerAddress: "0x73395DD2954333Fe546414679B931fB08C84ae81", // ❗
+        //ownerAddress: "0x73395DD2954333Fe546414679B931fB08C84ae81", // ❗
+        ownerAddress: (networkName == "mainnet" ? "0x73395DD2954333Fe546414679B931fB08C84ae81" : networkName == "sepolia" ?  "0x35456BA16043d6DC1D6c4F0AA5df556f54528E31" : "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"),
         usdtAddress: addresses[networkName].USDT,
         tokenAddress: addresses[networkName].VestraDAO,
         nftAddress: addresses[networkName].CMLENFT,
@@ -59,6 +60,33 @@ const DATA = {
         votingTime: (60 * 60 * 24 * 10),
         proposalVotingTime: (60 * 60 * 24 * 3),
         pool: func.numToParse("35750000000", 18),
+    },
+    Collaborations: {
+        contractName: "Collaboration",
+        categories: [
+            {
+                id: 0,
+                name: "Content Creator Rewards",
+                pool: func.numToParse("100000000"),
+                maxReward: func.numToParse("50000"),
+            }, {
+                id: 1,
+                name: "Launch Campaigns",
+                pool: func.numToParse("25000000"),
+                maxReward: func.numToParse("100000"),
+            }, {
+                id: 2,
+                name: "Contributor Appreciation Pool",
+                pool: func.numToParse("25000000"),
+                maxReward: func.numToParse("100000"),
+            }, {
+                id: 3,
+                name: "Community Participation Rewards",
+                pool: func.numToParse("25000000"),
+                maxReward: func.numToParse("25000"),
+            },
+
+        ],
     },
     airdrop: {
         contractName: "VSTRAirdrop",

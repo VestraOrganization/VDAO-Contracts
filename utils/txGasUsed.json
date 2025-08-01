@@ -42,7 +42,12 @@
     "5300_regularWalletWinners_deploy.js": "976672",
     "5400_RewardPoolLockStaking_deploy.js": "1127417",
     "5500_DonateCommunity_deploy.js": "709029",
-    "5600_AirdropToken2_deploy.js": "806240"
+    "5600_AirdropToken2_deploy.js": "806240",
+    "5700_Collaborator_deploy.js": "1360843",
+    "5702_Collaborator_CreateCat_0.js": "119063",
+    "5703_Collaborator_CreateCat_1.js": "124337",
+    "5704_Collaborator_CreateCat_2.js": "127039",
+    "5705_Collaborator_CreateCat_3.js": "129609"
   },
   "sepolia": {
     "1100_Token_deploy.js": "1651772",
@@ -82,7 +87,9 @@
     "3006_SendToken_Team.js": "62884",
     "5100_OTC_deploy.js": "840945",
     "5200_PublicSale_deploy.js": "1421481",
-    "5600_AirdropToken2_deploy.js": "806240"
+    "5600_AirdropToken2_deploy.js": "806240",
+    "5700_Collaborator_deploy.js": "1360843",
+    "5702_Collaborator_CreateCat_0.js": "119063"
   },
   "mainnet": {
     "1100_Token_deploy.js": "1651772",
@@ -126,7 +133,11 @@
     "5300_regularWalletWinners_deploy.js": "976672",
     "5500_DonateCommunity_deploy.js": "709029",
     "5400_RewardPoolLockStaking_deploy.js": "1132795",
-    "5600_AirdropToken2_deploy.js": "806240"
+    "5600_AirdropToken2_deploy.js": "806240",
+    "5702_Collaborator_CreateCat_0.js": "119063",
+    "5703_Collaborator_CreateCat_1.js": "124337",
+    "5704_Collaborator_CreateCat_2.js": "127039",
+    "5705_Collaborator_CreateCat_3.js": "129609"
   },
   "hardhat": {
     "1100_Token_deploy.js": "1651772"

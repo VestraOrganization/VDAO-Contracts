@@ -41,6 +41,7 @@ module.exports = {
     mainnet: {
       url: process.env.ALCHEMY_MAINNET_URL,
       chainId: 1,
+      gasPrice: "auto",
       accounts: [`0x${process.env.MAINNET_WALLET_PRIVATEKEY}`], 
     },
   },
