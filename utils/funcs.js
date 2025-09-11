@@ -23,7 +23,7 @@ function formatNumber(number, decimals = 6) {
  * @returns 
  */
 function numToParse(val, decimal = 18) {
-    return ethers.parseUnits(val, decimal).toString();
+    return ethers.parseUnits(val.toString(), decimal).toString();
 }
 /**
  * Gelen değerden desimali kaldırır

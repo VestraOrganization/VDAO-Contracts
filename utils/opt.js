@@ -61,6 +61,40 @@ const DATA = {
         proposalVotingTime: (60 * 60 * 24 * 3),
         pool: func.numToParse("35750000000", 18),
     },
+    Vestrans: {
+        contractName: "Vestrans",
+        tokenName: "Vestran Unity Collection",
+        tokenSymbol: "VUC",
+        uri: "https://nft.vestradao.com/vestrans/",
+        T1: {
+            name: "Vestran",
+            maxSupply : 5000,
+            price: 0.01,
+            point: 500,
+            maxAllocation: 50,
+        },
+        T2: {
+            name: "Bronze Vestran",
+            maxSupply : 2500,
+            price: 0.02,
+            point: 1000,
+            maxAllocation: 25
+        },
+        T3: {
+            name: "Silver Vestran",
+            maxSupply : 1500,
+            price: 0.05,
+            point: 2500,
+            maxAllocation: 15
+        },
+        T4: {
+            name: "Gold Vestran",
+            maxSupply : 1000,
+            price: 0.2,
+            point: 10000,
+            maxAllocation: 10
+        }
+    },
     Collaborations: {
         contractName: "Collaboration",
         categories: [

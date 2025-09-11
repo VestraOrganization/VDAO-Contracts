@@ -47,7 +47,12 @@
     "5702_Collaborator_CreateCat_0.js": "119063",
     "5703_Collaborator_CreateCat_1.js": "124337",
     "5704_Collaborator_CreateCat_2.js": "127039",
-    "5705_Collaborator_CreateCat_3.js": "129609"
+    "5705_Collaborator_CreateCat_3.js": "129609",
+    "7000_Vestrans_deploy.js": "3101604",
+    "7002_Vestrans_setNFT_1.js": "159299",
+    "7003_Vestrans_setNFT_2.js": "142283",
+    "7004_Vestrans_setNFT_3.js": "142283",
+    "7005_Vestrans_setNFT_4.js": "142271"
   },
   "sepolia": {
     "1100_Token_deploy.js": "1651772",
@@ -89,7 +94,8 @@
     "5200_PublicSale_deploy.js": "1421481",
     "5600_AirdropToken2_deploy.js": "806240",
     "5700_Collaborator_deploy.js": "1360843",
-    "5702_Collaborator_CreateCat_0.js": "119063"
+    "5702_Collaborator_CreateCat_0.js": "119063",
+    "7000_Vestrans_deploy.js": "3101604"
   },
   "mainnet": {
     "1100_Token_deploy.js": "1651772",
